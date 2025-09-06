@@ -22,7 +22,7 @@ Bu repo, Talent Academy Case DT 2025 kapsamında verilen sağlık verilerinin i�
 	 - Kategorik değişkenlerin dönüştürülmesi:  
 		 - OneHotEncoder ile tekil kategorik sütunların binary vektörlere çevrilmesi.  
 		 - MultiLabelBinarizer ile birden fazla kategori içeren sütunların çoklu vektörlere çevrilmesi.  
-		 - LabelEncoder ile sıralı kategorik değişkenlerin sayısal olarak kodlanması.  
+		 - LabelEncoder (pipeline'da map olarak) ile sıralı kategorik değişkenlerin sayısal olarak kodlanması.  
 	 - Sayısal değişkenlerin işlenmesi:  
 		 - StandardScaler ile tüm sayısal sütunların standartlaştırılması (ortalama=0, std=1).  
 		 - Aykırı değerlerin tespiti ve gerekirse işlenmesi.  
