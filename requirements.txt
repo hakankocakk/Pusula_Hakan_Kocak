@@ -8,6 +8,5 @@ joblib
 unidecode
 rapidfuzz
 sentence-transformers
-streamlit
 missingno
 scipy
