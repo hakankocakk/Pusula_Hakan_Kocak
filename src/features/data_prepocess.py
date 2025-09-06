@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from sklearn.preprocessing import OrdinalEncoder, OneHotEncoder, StandardScaler
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.preprocessing import MultiLabelBinarizer
 import joblib
 
@@ -9,18 +9,14 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import unicodedata
-import pickle
 import joblib
 import re
 
-from streamlit import dataframe
 from unidecode import unidecode
 from rapidfuzz import fuzz, process
-from sklearn.impute import KNNImputer
 
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
-
 
 from sentence_transformers import SentenceTransformer
 from sklearn.decomposition import PCA
