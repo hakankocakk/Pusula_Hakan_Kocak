@@ -27,7 +27,7 @@ Bu repo, Talent Academy Case DT 2025 kapsamında verilen sağlık verilerinin i�
 		 - StandardScaler ile tüm sayısal sütunların standartlaştırılması (ortalama=0, std=1).  
 		 - Aykırı değerlerin tespiti ve gerekirse işlenmesi.  
 	 - Metin sütunlarının embedding işlemleri:  
-		 - SentenceTransformer ile metinlerin vektörleştirilmesi.  
+		 - Bert ile metinlerin vektörleştirilmesi.  
 		 - PCA ile boyut indirgeme uygulanarak daha kompakt temsiller elde edilir.  
 	 - Sütun birleştirme ve yeni özellikler oluşturma:  
 		 - Benzer veya tamamlayıcı sütunlar birleştirilir.  
