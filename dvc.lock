@@ -1,0 +1,61 @@
+schema: '2.0'
+stages:
+  data_collection:
+    cmd: python .\src\data\data_collection.py
+    deps:
+    - path: .\src\data\data_collection.py
+      hash: md5
+      md5: c47fac45468e6569f9469066605c11f1
+      size: 1412
+    outs:
+    - path: datas/interim
+      hash: md5
+      md5: 39f1cf36ccf00f7430774d822eca8122.dir
+      size: 491350
+      nfiles: 2
+  data_preprocess:
+    cmd: python .\src\features\data_prepocess.py
+    deps:
+    - path: .\src\features\data_prepocess.py
+      hash: md5
+      md5: c0e20ad9d3f4c72fbedc06ec6ef6ebcc
+      size: 14215
+    - path: datas/interim
+      hash: md5
+      md5: 39f1cf36ccf00f7430774d822eca8122.dir
+      size: 491350
+      nfiles: 2
+    outs:
+    - path: datas/processed
+      hash: md5
+      md5: 4e1b0e7982d291251cf9c85e8dab68b2.dir
+      size: 834398
+      nfiles: 2
+    - path: models/mlb_Alerji.pkl
+      hash: md5
+      md5: 360cf890694a9bb176737c31e4872493
+      size: 721
+    - path: models/mlb_KronikHastalik.pkl
+      hash: md5
+      md5: 318e8e941746bb615af78f1497d5e2ff
+      size: 919
+    - path: models/one_hot_encoder.pkl
+      hash: md5
+      md5: 93360530750e727075e14fe6bbf37728
+      size: 3258
+    - path: models/pca_Tanilar.pkl
+      hash: md5
+      md5: f32fcb4586d57afebd37a4a297012394
+      size: 50283
+    - path: models/pca_TedaviAdi.pkl
+      hash: md5
+      md5: 03769e1bb7785166e36ab33ac9d2d130
+      size: 50283
+    - path: models/pca_UygulamaYerleri.pkl
+      hash: md5
+      md5: 662c591502ca50f5aa0e6fa1b632542c
+      size: 50283
+    - path: models/standardscaler.pkl
+      hash: md5
+      md5: 3f3fb55ee249123ac690a1e373ce45b5
+      size: 983

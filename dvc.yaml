@@ -1,0 +1,21 @@
+stages:
+  data_collection:
+    cmd: python .\src\data\data_collection.py
+    deps:
+    - .\src\data\data_collection.py
+    outs:
+    - datas/interim
+  data_preprocess:
+    cmd: python .\src\features\data_prepocess.py
+    deps:
+    - datas/interim
+    - .\src\features\data_prepocess.py
+    outs:
+    - datas/processed
+    - models/mlb_Alerji.pkl
+    - models/mlb_KronikHastalik.pkl
+    - models/pca_Tanilar.pkl
+    - models/pca_TedaviAdi.pkl
+    - models/pca_UygulamaYerleri.pkl
+    - models/one_hot_encoder.pkl
+    - models/standardscaler.pkl
