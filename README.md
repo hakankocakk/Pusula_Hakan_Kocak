@@ -2,7 +2,7 @@
 ## Hakan Koçak - khakan924@gmail.com
 ## Proje Açıklaması
 
-Bu repo, Talent Academy Case DT 2025 kapsamında verilen sağlık verilerinin işlenmesi, analiz edilmesi ve makine öğrenmesi modellerine uygun hale getirilmesi için geliştirilmiş bir veri işleme ve analiz pipeline'ı içerir. Proje, veri toplama, ön işleme ve modellemeye hazır hale getirme adımlarını kapsar.
+Bu repo, Talent Academy Data Science Intern Case Study kapsamında verilen sağlık verilerinin işlenmesi, analiz edilmesi ve makine öğrenmesi modellerine uygun hale getirilmesi için geliştirilmiş bir veri işleme ve analiz pipeline'ı içerir. Proje, veri toplama, ön işleme ve modellemeye hazır hale getirme adımlarını kapsar.
 
 ## Yapılan İşlemler (Pipeline Özeti)  
 
