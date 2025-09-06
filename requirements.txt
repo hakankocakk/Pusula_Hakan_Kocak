@@ -1,0 +1,12 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+joblib
+unidecode
+rapidfuzz
+sentence-transformers
+streamlit
+missingno
+scipy
